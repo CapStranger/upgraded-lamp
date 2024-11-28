@@ -1,0 +1,692 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "create_sa:brass_axe": [
+      10647,
+      0.9755281
+    ],
+    "create_sa:brass_sword": [
+      10755,
+      0.8363856
+    ],
+    "create_sa:copper_axe": [
+      11252,
+      0.031199997
+    ],
+    "create_sa:copper_sword": [
+      11315,
+      0.024899999
+    ],
+    "create_sa:zinc_axe": [
+      10987,
+      0.51635593
+    ],
+    "create_sa:zinc_sword": [
+      11112,
+      0.045199998
+    ],
+    "effs:hand_combat": [
+      11375,
+      0.0189
+    ],
+    "epicfight:bokken": [
+      11437,
+      0.0127
+    ],
+    "epicfight:diamond_dagger": [
+      8867,
+      4.790248
+    ],
+    "epicfight:diamond_greatsword": [
+      8637,
+      5.2822285
+    ],
+    "epicfight:diamond_longsword": [
+      8792,
+      4.951788
+    ],
+    "epicfight:diamond_spear": [
+      8821,
+      4.889481
+    ],
+    "epicfight:diamond_tachi": [
+      8792,
+      4.951788
+    ],
+    "epicfight:glove": [
+      11117,
+      0.044699997
+    ],
+    "epicfight:golden_dagger": [
+      11505,
+      0.0058999998
+    ],
+    "epicfight:golden_greatsword": [
+      11274,
+      0.028999997
+    ],
+    "epicfight:golden_longsword": [
+      11466,
+      0.009799999
+    ],
+    "epicfight:golden_spear": [
+      11483,
+      0.0081
+    ],
+    "epicfight:golden_tachi": [
+      11466,
+      0.009799999
+    ],
+    "epicfight:iron_dagger": [
+      11112,
+      0.045199998
+    ],
+    "epicfight:iron_greatsword": [
+      10881,
+      0.670341
+    ],
+    "epicfight:iron_longsword": [
+      11049,
+      0.37663084
+    ],
+    "epicfight:iron_spear": [
+      11074,
+      0.049
+    ],
+    "epicfight:iron_tachi": [
+      11049,
+      0.37663084
+    ],
+    "epicfight:netherite_dagger": [
+      8047,
+      6.5202
+    ],
+    "epicfight:netherite_greatsword": [
+      7820,
+      6.9932466
+    ],
+    "epicfight:netherite_longsword": [
+      7960,
+      6.701589
+    ],
+    "epicfight:netherite_spear": [
+      7993,
+      6.632802
+    ],
+    "epicfight:netherite_tachi": [
+      7960,
+      6.701589
+    ],
+    "epicfight:stone_greatsword": [
+      11096,
+      0.0468
+    ],
+    "epicfight:stone_spear": [
+      11298,
+      0.026599998
+    ],
+    "minecraft:bow": [
+      8996,
+      4.508568
+    ],
+    "minecraft:crossbow": [
+      9290,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      8759,
+      5.022479
+    ],
+    "minecraft:diamond_sword": [
+      8821,
+      4.889481
+    ],
+    "minecraft:enchanted_book": [
+      9964,
+      1.8573177
+    ],
+    "minecraft:golden_axe": [
+      11420,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      11483,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      10987,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      11074,
+      0.049
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      10064,
+      1.7269388
+    ],
+    "minecraft:netherite_axe": [
+      7923,
+      6.778693
+    ],
+    "minecraft:netherite_sword": [
+      7993,
+      6.632802
+    ],
+    "minecraft:snowball": [
+      11014,
+      0.46844563
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      10064,
+      1.7269388
+    ],
+    "minecraft:stone_axe": [
+      11190,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      11298,
+      0.026599998
+    ],
+    "minecraft:tnt": [
+      9864,
+      1.9881918
+    ],
+    "minecraft:trident": [
+      9064,
+      4.357304
+    ],
+    "minecraft:wooden_axe": [
+      11374,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      11437,
+      0.0127
+    ],
+    "wom:diamond_greataxe": [
+      8681,
+      5.1888037
+    ],
+    "wom:diamond_staff": [
+      4887,
+      13.130334
+    ],
+    "wom:golden_greataxe": [
+      11391,
+      0.0173
+    ],
+    "wom:golden_staff": [
+      11423,
+      0.014099999
+    ],
+    "wom:iron_greataxe": [
+      10950,
+      0.57356006
+    ],
+    "wom:iron_staff": [
+      10475,
+      1.1961136
+    ],
+    "wom:netherite_greataxe": [
+      7876,
+      6.876611
+    ],
+    "wom:netherite_staff": [
+      2869,
+      17.410627
+    ],
+    "wom:stone_staff": [
+      10995,
+      0.50295484
+    ],
+    "wom:wooden_staff": [
+      11310,
+      0.0254
+    ]
+  },
+  "OFFHAND": {
+    "minecraft:ender_pearl": [
+      8239,
+      1.2102311
+    ],
+    "minecraft:flint_and_steel": [
+      8211,
+      1.2461817
+    ],
+    "minecraft:lava_bucket": [
+      7839,
+      1.7269388
+    ],
+    "minecraft:shield": [
+      7917,
+      1.6255897
+    ]
+  },
+  "FEET": {
+    "alexscaves:diving_boots": [
+      10744,
+      1.1178746
+    ],
+    "alexscaves:gingerbread_boots": [
+      10998,
+      0.79089624
+    ],
+    "create:copper_diving_boots": [
+      11198,
+      0.5113901
+    ],
+    "create_sa:brass_boots": [
+      10466,
+      1.4754212
+    ],
+    "create_sa:copper_boots": [
+      10838,
+      0.9973453
+    ],
+    "create_sa:zinc_boots": [
+      10687,
+      1.1909808
+    ],
+    "minecraft:chainmail_boots": [
+      11180,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      10264,
+      1.7373508
+    ],
+    "minecraft:golden_boots": [
+      11246,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      10932,
+      0.8764657
+    ],
+    "minecraft:leather_boots": [
+      11528,
+      0.0244
+    ],
+    "minecraft:netherite_boots": [
+      10137,
+      1.9030677
+    ]
+  },
+  "LEGS": {
+    "alexscaves:diving_leggings": [
+      10716,
+      1.1537791
+    ],
+    "alexscaves:gingerbread_leggings": [
+      10985,
+      0.8078281
+    ],
+    "alexscaves:hazmat_leggings": [
+      10917,
+      0.89580816
+    ],
+    "alexscaves:primordial_pants": [
+      11007,
+      0.7791448
+    ],
+    "alexscaves_torpedoes:tectonic_leggings": [
+      6277,
+      10.645845
+    ],
+    "aquamirae:abyssal_leggings": [
+      10327,
+      1.6554433
+    ],
+    "aquamirae:terrible_leggings": [
+      10381,
+      1.5853943
+    ],
+    "aquamirae:three_bolt_leggings": [
+      9719,
+      3.1174598
+    ],
+    "assortedtools:aluminum_leggings": [
+      11722,
+      0.005
+    ],
+    "assortedtools:amethyst_leggings": [
+      11702,
+      0.0069999998
+    ],
+    "assortedtools:bronze_leggings": [
+      11707,
+      0.0064999997
+    ],
+    "assortedtools:chicken_suit_leggings": [
+      11697,
+      0.0075
+    ],
+    "assortedtools:copper_leggings": [
+      11702,
+      0.0069999998
+    ],
+    "assortedtools:electrum_leggings": [
+      11707,
+      0.0064999997
+    ],
+    "assortedtools:emerald_leggings": [
+      11702,
+      0.0069999998
+    ],
+    "assortedtools:invar_leggings": [
+      11717,
+      0.0055
+    ],
+    "assortedtools:lead_leggings": [
+      11752,
+      0.0019999999
+    ],
+    "assortedtools:nickel_leggings": [
+      11722,
+      0.005
+    ],
+    "assortedtools:peridot_leggings": [
+      11732,
+      0.0039999997
+    ],
+    "assortedtools:platinum_leggings": [
+      11682,
+      0.009
+    ],
+    "assortedtools:ruby_leggings": [
+      11722,
+      0.005
+    ],
+    "assortedtools:sapphire_leggings": [
+      11702,
+      0.0069999998
+    ],
+    "assortedtools:silver_leggings": [
+      11702,
+      0.0069999998
+    ],
+    "assortedtools:steel_leggings": [
+      11722,
+      0.005
+    ],
+    "assortedtools:tin_leggings": [
+      11702,
+      0.0069999998
+    ],
+    "assortedtools:topaz_leggings": [
+      11732,
+      0.0039999997
+    ],
+    "cataclysm:cursium_leggings": [
+      8126,
+      6.789111
+    ],
+    "cataclysm:ignitium_leggings": [
+      6916,
+      9.309818
+    ],
+    "create_sa:brass_leggings": [
+      10466,
+      1.4754212
+    ],
+    "create_sa:copper_leggings": [
+      10838,
+      0.9973453
+    ],
+    "create_sa:zinc_leggings": [
+      10687,
+      1.1909808
+    ],
+    "create_upgraded_armor:renforced_brass_armor_leggings": [
+      5,
+      24.006296
+    ],
+    "deeperdarker:resonarium_leggings": [
+      10216,
+      1.7998894
+    ],
+    "deeperdarker:warden_leggings": [
+      8931,
+      5.0993676
+    ],
+    "epicfight:stray_pants": [
+      11473,
+      0.0299
+    ],
+    "minecraft:chainmail_leggings": [
+      11180,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      10264,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      11246,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      10932,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      11528,
+      0.0244
+    ],
+    "minecraft:netherite_leggings": [
+      10137,
+      1.9030677
+    ],
+    "wandering_bags:silver_armor_leggings": [
+      9513,
+      3.788667
+    ],
+    "wom:diamond_legtopseal": [
+      11036,
+      0.74107856
+    ],
+    "wom:emerald_tasset": [
+      10974,
+      0.8221206
+    ],
+    "wom:golden_chrono": [
+      11361,
+      0.0411
+    ],
+    "wom:netherite_belt": [
+      10910,
+      0.9048254
+    ]
+  },
+  "CHEST": {
+    "alexscaves:cloak_of_darkness": [
+      11069,
+      0.6972618
+    ],
+    "alexscaves:diving_chestplate": [
+      10732,
+      1.1332608
+    ],
+    "alexscaves:gingerbread_chestplate": [
+      10993,
+      0.7974141
+    ],
+    "alexscaves:primordial_tunic": [
+      11024,
+      0.7568712
+    ],
+    "create_sa:brass_chestplate": [
+      10466,
+      1.4754212
+    ],
+    "create_sa:copper_chestplate": [
+      10838,
+      0.9973453
+    ],
+    "create_sa:zinc_chestplate": [
+      10687,
+      1.1909808
+    ],
+    "epicfight:stray_robe": [
+      11473,
+      0.0299
+    ],
+    "minecraft:chainmail_chestplate": [
+      11180,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      10264,
+      1.7373508
+    ],
+    "minecraft:golden_chestplate": [
+      11246,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      10932,
+      0.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      11528,
+      0.0244
+    ],
+    "minecraft:netherite_chestplate": [
+      10137,
+      1.9030677
+    ]
+  },
+  "HEAD": {
+    "alexscaves:diving_helmet": [
+      10701,
+      1.173019
+    ],
+    "alexscaves:gingerbread_helmet": [
+      10978,
+      0.8169267
+    ],
+    "alexscaves:primordial_helmet": [
+      10993,
+      0.7974141
+    ],
+    "create:copper_diving_helmet": [
+      11198,
+      0.5113901
+    ],
+    "create_sa:brass_helmet": [
+      10466,
+      1.4754212
+    ],
+    "create_sa:copper_helmet": [
+      10838,
+      0.9973453
+    ],
+    "create_sa:zinc_helmet": [
+      10687,
+      1.1909808
+    ],
+    "epicfight:stray_hat": [
+      11473,
+      0.0299
+    ],
+    "minecraft:chainmail_helmet": [
+      11180,
+      0.540316
+    ],
+    "minecraft:diamond_helmet": [
+      10264,
+      1.7373508
+    ],
+    "minecraft:golden_helmet": [
+      11246,
+      0.4136078
+    ],
+    "minecraft:iron_helmet": [
+      10932,
+      0.8764657
+    ],
+    "minecraft:leather_helmet": [
+      11528,
+      0.0244
+    ],
+    "minecraft:netherite_helmet": [
+      10137,
+      1.9030677
+    ],
+    "minecraft:turtle_helmet": [
+      10876,
+      0.948558
+    ],
+    "railways:black_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:blue_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:brown_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:cyan_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:gray_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:green_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:light_blue_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:light_gray_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:lime_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:magenta_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:orange_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:pink_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:purple_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:red_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:white_conductor_cap": [
+      11142,
+      0.59678036
+    ],
+    "railways:yellow_conductor_cap": [
+      11142,
+      0.59678036
+    ]
+  }
+}

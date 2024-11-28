@@ -1,0 +1,5 @@
+
+[general]
+	blacklist_enchantments = []
+	combine_enchantments = false
+

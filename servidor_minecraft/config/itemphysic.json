@@ -1,0 +1,40 @@
+{
+  "general": {
+    "fallSounds": true,
+    "disableCactusDamage": false,
+    "swimmingItems": {
+      "entries": [],
+      "isWhitelist": true
+    },
+    "burningItems": {
+      "entries": [],
+      "isWhitelist": false
+    },
+    "undestroyableItems": {
+      "entries": [
+        "{id:\"item\",item:\"minecraft:nether_star\"}",
+        "{block:\"minecraft:bedrock\",id:\"block\"}",
+        "{block:\"minecraft:obsidian\",id:\"block\"}",
+        "{id:\"empty\"}"
+      ],
+      "isWhitelist": true
+    }
+  },
+  "pickup": {
+    "customPickup": false,
+    "pickupWhenSneaking": true,
+    "pickupNormally": false,
+    "maximumPickupRange": 5,
+    "hitboxIncrease": 0.2,
+    "alwaysPickup": {
+      "entries": [],
+      "isWhitelist": true
+    }
+  },
+  "throw": {
+    "enabled": true,
+    "maxStages": 6,
+    "multiplierPerStage": 1,
+    "stageChargeTime": 10
+  }
+}
